@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  color:#444;
+}
+.box{
+  background-color: #ccc;
+  padding:10px;
+  max-width:400px;
+  margin: 20px auto;
+  border-radius: 7px;
+}
+
+.box div, .box input{
+  border:1px solid #999;
+  min-height: 12pt;
+  padding: 5px;
+  margin: 3px;
+  line-height: 12pt;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+#result{
+  text-align: right;
+}
+#mformula{
+  font-size: 10pt!important;
+}
+
+#mformula div{
+  position: relative;
+}
+
+#mformula div span{
+  display: inline-block;
+  width: 12pt;
+  padding: 4px;
+  line-height: 12pt;
+  text-align: center;
+  top:0px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  position: absolute;
+  background-color: #777;
+  color:white;
+  right: 0;
+  cursor: pointer;
+}
+
+
+#mformula div span:hover,#mformula div span:active,#mformula div span:focus{
+  background-color: #444;
+}
+
+input[type=text]{
+  background-color: white!important;
+  width: calc(100% - 110px);
+}
+input[type=submit]{
+  background-color: #bbb!important;
+  width: 80px;
+}
+
+input[type=submit]:hover,input[type=submit]:active,input[type=submit]:focus{
+  background-color: #777!important;
+  color:#eee;
+  width: 80px;
+}
